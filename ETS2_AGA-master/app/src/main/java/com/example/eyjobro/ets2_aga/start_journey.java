@@ -1,11 +1,18 @@
 package com.example.eyjobro.ets2_aga;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.swedspot.automotiveapi.AutomotiveSignalId;
+import android.swedspot.scs.data.SCSFloat;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+
+import com.example.eyjobro.ets2_aga.observer.AbstractSignalListener;
+import com.example.eyjobro.ets2_aga.observer.AutomotiveManagerWrapper;
 
 
 public class start_journey extends ActionBarActivity {

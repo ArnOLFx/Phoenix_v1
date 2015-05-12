@@ -1,5 +1,6 @@
 package com.example.eyjobro.ets2_aga.observer;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.swedspot.automotiveapi.AutomotiveSignal;
 import android.swedspot.scs.data.SCSData;
