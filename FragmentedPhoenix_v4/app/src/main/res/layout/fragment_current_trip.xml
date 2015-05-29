@@ -1,0 +1,281 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="group9.fragmentedphoenix.ETS2_Fragment">
+
+    <!-- The layout for the current journey fragment. Consists of textviews that will take the
+    values from the ETS2 simulator and insert them into the TextViews. -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#00000000">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@mipmap/logo12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Current trip"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal|left"
+                android:textColor="#ffffffff"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="1"
+            android:id="@+id/speed_live_feed"
+            android:background="#26D1D1D1"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Current speed"
+                android:id="@+id/current_speed"
+                android:layout_gravity="center_vertical|left"
+                android:paddingRight="160dp"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/speedValue"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:paddingRight="4dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="km/h"
+                android:id="@+id/kmhourtext"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="1"
+            android:background="#26383838"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Current gear"
+                android:id="@+id/currentGearText"
+                android:layout_gravity="center_vertical|left"
+                android:paddingRight="173dp"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/gearValue"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:paddingRight="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="1"
+            android:id="@+id/rpmLayout"
+            android:background="#26D1D1D1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Current rpm"
+                android:id="@+id/currentRPMText"
+                android:layout_gravity="center_vertical|left"
+                android:paddingRight="177dp"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/rpmValue"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:paddingRight="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="rpm"
+                android:id="@+id/rmptext"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:id="@+id/boarderline"
+            android:src="@mipmap/bordi"
+            android:layout_gravity="top"
+            android:scaleType="fitXY"
+            android:background="#00000000" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/errorTable"
+            android:background="#00000000"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/rpmError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:singleLine="false"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/errorTable2"
+            android:background="#00000000"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/speedError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:singleLine="false"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/errorTable3"
+            android:background="#00000000"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/gearError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:singleLine="false"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/errorTable4"
+            android:background="#00000000"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/brakeError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:singleLine="false"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="START"
+                android:background="#00000000"
+                android:textColor="#ffffffff"
+                android:id="@+id/start"
+                android:layout_column="0"
+                android:layout_weight="0.53" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STOP"
+                android:background="#00000000"
+                android:textColor="#ffffffff"
+                android:id="@+id/stop"
+                android:layout_column="1"
+                android:layout_weight="0.46" />
+        </TableRow>
+
+    </LinearLayout>
+
+</RelativeLayout>

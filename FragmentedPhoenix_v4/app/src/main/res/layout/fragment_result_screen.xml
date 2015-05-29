@@ -1,0 +1,598 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="group9.fragmentedphoenix.JourneyFragment">
+
+    <!-- Table layout no longer in use but can be used as a template to import results from SQL database -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="3"
+        android:layout_y="350dp">
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r2c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r2c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r2c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r3c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r3c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r3c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r4c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r4c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r4c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r5c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r5c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r5c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r6c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r6c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r6c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r7c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r7c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r7c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r8c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r8c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r8c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r9c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r9c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r9c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r10c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r10c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r10c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r11c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r11c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r11c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r12c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r12c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r12c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r13c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r13c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r13c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r14c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r14c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r14c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r15c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r15c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r15c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow16"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r16c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r16c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r16c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow17"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r17c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r17c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r17c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow18"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r18c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r18c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r18c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow19"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r19c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r19c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r19c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow20"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r20c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r20c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r20c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow21"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r21c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r21c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r21c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow22"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r22c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r22c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r22c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow23"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r23c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r23c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r23c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow24"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r24c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r24c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r24c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow25"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r25c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r25c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r25c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow26"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r26c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r26c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r26c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow27"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r27c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r27c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r27c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow28"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r28c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r28c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r28c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow29"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r29c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r29c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r29c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow30"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r30c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r30c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r30c3"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow31"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r31c1"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r31c2"></TextView>
+            <TextView android:text="" android:layout_weight="1"
+                android:id="@+id/r31c3"></TextView>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+    <!-- Layout with text views to display the results after the journey has been finished -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="#00000000" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:src="@mipmap/logo12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Trip Result"
+                android:id="@+id/ErrorResult"
+                android:layout_gravity="left|center_horizontal"
+                android:textColor="#ffffffff"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="1"
+            android:id="@+id/linearLayout2"
+            android:background="#26D1D1D1"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_vertical|left"
+                android:paddingRight="200dp"
+                android:textColor="#ffffffff"
+                android:text="Gear Errors" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/GearErrorsResult"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:paddingRight="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="1"
+            android:background="#26383838"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Brake Errors"
+                android:id="@+id/textView6"
+                android:layout_gravity="center_vertical|left"
+                android:paddingRight="192dp"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/BrakeErrorsResult"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:paddingRight="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="1"
+            android:id="@+id/linearLayout3"
+            android:background="#26D1D1D1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Speed Errors"
+                android:id="@+id/textView8"
+                android:layout_gravity="center_vertical|left"
+                android:paddingRight="188dp"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/SpeedErrorsResult"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff"
+                android:paddingRight="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:weightSum="1"
+            android:id="@+id/linearLayout4"
+            android:background="#26383838"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Total Errors"
+                android:id="@+id/textView11"
+                android:layout_gravity="center_vertical|left"
+                android:paddingRight="197dp"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/TotalErrorsResult"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

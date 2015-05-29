@@ -1,0 +1,65 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="group9.fragmentedphoenix.CreateProfileFragment">
+
+    <!-- Layout for the Create profile fragment, no longer in use as the function was not worthwhile. -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="229dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@mipmap/logo12"
+                android:layout_weight="0.85"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Create profile"
+                android:id="@+id/createProfileHeader"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/username"
+                android:text="Username"
+                android:layout_marginTop="60dp"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Profile"
+                android:id="@+id/createProfileButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
