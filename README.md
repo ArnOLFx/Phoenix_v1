@@ -1,3 +1,3 @@
-# Phoenix_v1
-This is the working repo of the whole project
-This repo had an ignore, to ignore the fucking gradle!
+# Project Phoenix
+
+Software that allows Automotive Grade Android (AGA) app developers to use telemetry data from the Euro Truck Simulator 2 game in order to simulate truck signals.
